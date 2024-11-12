@@ -1,0 +1,42 @@
+﻿namespace EPaymentVoucher.Models.General
+{
+	public enum MonthConstant
+	{
+		January = 0,
+		February = 1,
+		March = 2,
+		April = 3,
+		May = 4,
+		June = 5,
+		July = 6,
+		August = 7,
+		September = 8,
+		October = 9,
+		November = 10,
+		December = 11,
+	}
+
+	public enum MonthParamConstant
+	{
+		January = 1,
+		February = 2,
+		March = 3,
+		April = 4,
+		May = 5,
+		June = 6,
+		July = 7,
+		August = 8,
+		September = 9,
+		October = 10,
+		November = 11,
+		December = 12,
+	}
+
+	public class DataConstant
+	{
+		public const string Add = "Add";
+		public const string Edit = "Edit";
+		public const string Resubmit = "Re-Submit";
+		public const string Submit = "Submit";
+	}
+}

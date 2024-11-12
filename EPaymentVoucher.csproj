@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="DotNetSeleniumExtras.PageObjects" Version="3.11.0" />
+		<PackageReference Include="DotNetSeleniumExtras.PageObjects.Core" Version="4.14.1" />
+		<PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
+		<PackageReference Include="Emphasis.ScreenCapture" Version="1.0.5" />
+		<PackageReference Include="Emphasis.ScreenCapture.Runtime.Windows.DXGI.Bitmap" Version="1.0.5" />
+		<PackageReference Include="InputSimulatorEx" Version="2.1.1" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="NPOI" Version="2.7.0" />
+		<PackageReference Include="Selenium.Support" Version="4.21.0" />
+		<PackageReference Include="Selenium.WebDriver" Version="4.21.0" />
+	</ItemGroup>
+
+</Project>
